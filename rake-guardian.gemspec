@@ -6,7 +6,7 @@ require 'rake/guardian/version'
 Gem::Specification.new do |spec|
   spec.name          = "rake-guardian"
   spec.version       = Rake::Guardian::VERSION
-  spec.authors       = ["yuuji.yaginuma"]
+  spec.authors       = ["Yuji Yaginuma"]
   spec.email         = ["yuuji.yaginuma@gmail.com"]
 
   spec.summary       = %q{Guard the Rake of execution in a particular environment}
@@ -14,6 +14,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/y-yagi/rake-guardian"
   spec.license       = "MIT"
 
+  spec.metadata['allowed_push_host'] = "https://rubygems.org"
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }

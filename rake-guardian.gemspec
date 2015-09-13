@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Yuji Yaginuma"]
   spec.email         = ["yuuji.yaginuma@gmail.com"]
 
-  spec.summary       = %q{Guard the Rake of execution in a particular environment}
-  spec.description   = %q{Guard the Rake of execution in a particular environment}
+  spec.summary       = %q{Prevent the Rake of execution in a particular environment}
+  spec.description   = %q{Prevent the Rake of execution in a particular environment}
   spec.homepage      = "https://github.com/y-yagi/rake-guardian"
   spec.license       = "MIT"
 

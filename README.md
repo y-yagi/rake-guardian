@@ -2,7 +2,7 @@
 
 To prevent the execution of the Rake in a particular environment in Rails application
 
-[![Build Status](https://travis-ci.org/y-yagi/rake-guardian.svg?branch=master)](https://travis-ci.org/y-yagi/minitest-retry)
+[![Build Status](https://travis-ci.org/y-yagi/rake-guardian.svg?branch=master)](https://travis-ci.org/y-yagi/rake-guardian)
 [![Gem Version](https://badge.fury.io/rb/rake-guardian.svg)](http://badge.fury.io/rb/rake-guardian)
 
 ## Installation

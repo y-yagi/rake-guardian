@@ -29,6 +29,7 @@ If you were running the `rake db:drop` in in production environment by mistake, 
 ./bin/rake db:drop RAILS_ENV=production
 [rake-guardian] db:drop can not invoke.
 ```
+By default, it will prevent the execution of the `db:drop`, `db:reset`, `db:purge` and `db:drop:all`.
 Judgment of environment I have performed in `RAILS_ENV`.
 
 ### configuration options

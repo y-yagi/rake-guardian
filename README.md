@@ -4,6 +4,7 @@ To prevent the execution of the Rake in a particular environment in Rails applic
 
 [![Build Status](https://travis-ci.org/y-yagi/rake-guardian.svg?branch=master)](https://travis-ci.org/y-yagi/rake-guardian)
 [![Gem Version](https://badge.fury.io/rb/rake-guardian.svg)](http://badge.fury.io/rb/rake-guardian)
+[![Code Climate](https://codeclimate.com/github/y-yagi/rake-guardian/badges/gpa.svg)](https://codeclimate.com/github/y-yagi/rake-guardian)
 
 ## Installation
 

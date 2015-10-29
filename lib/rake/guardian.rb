@@ -5,7 +5,7 @@ require "rake/application"
 module Rake
   module Guardian
     def invoke_task(task_string)
-      name, args = parse_task_string(task_string)
+      name, _ = parse_task_string(task_string)
       if need_guard?(name)
         $stderr.puts "[rake-guardian] #{name} can not invoke."
         return 0
